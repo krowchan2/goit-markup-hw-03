@@ -336,7 +336,7 @@ img {
     letter-spacing: 0.4px;
     gap: 8px;
 }
-.team-div{
+.team-div {
     display: flex;
     width: 232px;
     flex-direction: column;
@@ -395,10 +395,11 @@ img {
     align-items: center;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 100px;
     
 }
 .portfolio-div{
-    margin-bottom: 100px;
+    
 }
 
 .portfolio-img {
@@ -420,8 +421,15 @@ img {
     background: var(--white);
 }
 
+.portfolio-content-title{
+    padding: 0 16px;
+    text-align: center;
+}
 
-
+.portfolio-content {
+    padding: 0 16px;
+    text-align: center;
+}
 
 
 
