@@ -58,14 +58,9 @@ img {
   padding: 24px 0;
 }
 
-.header-container {
+.nav-menu {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
-}
-
-.nav-menu {
-  display: inline-flex;
   gap: 76px;
 }
 
@@ -78,7 +73,6 @@ img {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-left: 20px;
 }
 
 .logo-span {
@@ -112,7 +106,7 @@ img {
   color: var(--ocean);
 }
 
-.address {
+.addressss {
   margin-left: 200px;
 }
 
@@ -318,6 +312,7 @@ img {
 .portfolio-list-img {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 24px;
 }
 
