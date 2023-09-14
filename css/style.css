@@ -58,9 +58,13 @@ img {
   padding: 24px 0;
 }
 
-.nav-menu {
+.header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-menu {
+  display: inline-flex;
   gap: 76px;
 }
 
@@ -96,7 +100,7 @@ img {
   font-family: "Roboto";
   font-size: 18px;
   font-style: normal;
-  font-weight: 00;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
@@ -106,8 +110,9 @@ img {
   color: var(--ocean);
 }
 
-.addressss {
-  margin-left: 200px;
+.addresssss {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .address-list {
