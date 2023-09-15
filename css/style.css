@@ -260,7 +260,6 @@ img {
   flex-direction: column;
   align-items: center;
   padding: 32px 0;
-  gap: 8px;
 }
 .team-name {
   color: var(--navyblue);
@@ -329,10 +328,10 @@ img {
 }
 
 .portfolio-list-img {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
 .portfolio-list-img-item {
