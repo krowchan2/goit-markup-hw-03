@@ -131,9 +131,10 @@ img {
 }
 
 .hero {
+  background-image: url("people-office.png");
+  background-size: cover;
   background-color: var(--navyblue);
   text-align: center;
-  flex-shrink: 0;
   padding: 188px 0;
 }
 .hero-title {
@@ -167,6 +168,14 @@ img {
   padding: 120px;
 }
 
+.svg-about {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud);
+  padding: 24px 100px;
+}
 .about-list {
   display: flex;
   align-items: center;
@@ -345,6 +354,12 @@ img {
   flex-shrink: 0;
   border: 1px solid var(--cornflower);
   background: var(--white);
+}
+.portfolio-list-img-item:hover {
+  border: 1px solid var(--cloud);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-content-title {
